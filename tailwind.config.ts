@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+    fontFamily: {
+    inter: ['Inter', 'sans-serif'],
+    grotesk: ['"Familjen Grotesk"', 'sans-serif'],
+    },
+    },
   },
   plugins: [],
 }
