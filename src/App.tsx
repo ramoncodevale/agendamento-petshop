@@ -1,3 +1,4 @@
+import { AgendaHeader } from "./components/agenda-header"
 import { Header } from "./components/header"
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
   return (
     <>
     <Header /> 
+    <AgendaHeader />
     </>
   )
 }
