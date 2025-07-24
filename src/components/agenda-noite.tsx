@@ -1,6 +1,8 @@
+import { Button } from "./button"
 
 export const AgendaNoite = () => {
   return (
+    <>
    <section className="flex justify-center mt-3">
     <div className="w-[711px] h-[120px] bg-[#2E2C30] rounded-[10px] p-5">
     <div className="flex justify-between items-center">
@@ -21,8 +23,13 @@ export const AgendaNoite = () => {
     <p className="text-[#98959D] text-[12px]">Limpeza de Dentes</p>
     <p className="text-[#666666] text-[12px] font-light">Remover Agendamento</p>
    </div>
-    </div>
+   
+   </div>
    </section>
+   <div className="flex justify-end items-center px-28 mt-3">
+   <Button />
+   </div>
+   </>
   )
 }
 
